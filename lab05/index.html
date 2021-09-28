@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="carro.js"></script>
+    <script src="moto.js" type="text/javascript"></script>
+    <script src="interface.js" type="text/javascript""></script>
+    <script src="veiculo.js" type="text/javascript"></script>
+    <meta name="viewport.js" type="text/javascript" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento do Alisson</title>
+</head>
+<body>
+    <form name ="dados">
+        <p>Cliente</p>
+        <input type="text" name="Cliente" ></input>
+        <p>placa</p>
+        <input type="text" name="placa" ></input>
+        <p>Hora de Entrada</p>
+        <input type="text" name="Horadeentrada" ></input>
+        <p>Tipo de veiculo</p>
+        <input type="radio" name="vei" value="Carro">
+        <label for="Carro">Carro</label>
+        <input type="radio" name="vei" value="Moto">
+        <label for="Moto">Moto</label>
+        <p>Marca</p>
+        <input type="text" name="Marca" ></input>
+
+
+        <input type="button" value="Entrada" onclick="registraEntrada()"></input>
+
+        <p>ID</p>
+        <input type="text" name="ID" ></input>
+        <p>Hora de Saida</p>
+        <input type="text" name="HoradeSaida" ></input>
+
+        <input type="button" value="Saida" onclick="registraSaida()"></input>
+
+
+
+
+
+
+    </form>
+
+
+</body>
+</html>
